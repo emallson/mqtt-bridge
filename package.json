@@ -1,0 +1,12 @@
+{
+  "name": "mqtt-bridge",
+  "version": "1.0.0",
+  "description": "A small application that forms a bridge between two MQTT(-SN) brokers, subscribing to one and re-publishing on the other.",
+  "bin": { "mqtt-bridge": "./index.js" },
+  "author": "J David Smith <emallson@atlanis.net>",
+  "license": "MIT",
+  "dependencies": {
+    "docopt": "^0.6.2",
+    "mqtt": "^2.1.1"
+  }
+}
